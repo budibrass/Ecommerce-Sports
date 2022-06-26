@@ -1,0 +1,73 @@
+.login-box {
+    width: 350px;
+    max-height: 300px;
+    box-shadow: 0 4px 8px 0 grey;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -200px;
+    left: 50%;
+    top: 50%;
+}
+
+.login-box > .title-box{
+    color: green;
+    font-weight: 400;
+}
+
+.login-box > .logo-text {
+    max-width: 50%;
+}
+
+.login-box > .slogan-line {
+    background-color: #61c156;
+    margin: 0;
+    text-align: center;
+    padding: 8px;
+}
+
+.login-box > .slogan-line > .slogan-text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.login-box > .form-login {
+    margin-top: 20px;
+}
+
+.login-box > .form-login ::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: lightgray;
+}
+
+.login-box > .form-login .email,
+.login-box > .form-login .password {
+    margin-bottom: 7px;
+    padding: 5px 10px 5px 10px;
+    width: 70%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.login-box > .form-login > .login {
+    margin: 5px 0 20px 0;
+    width: 70%;
+    background-color: #61c156;
+    border: 0px;
+    padding: 6px 0 6px 0;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.login-box > .form-login > .login:hover {
+    cursor: pointer;
+}

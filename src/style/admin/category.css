@@ -1,0 +1,146 @@
+.sidebar.close ~ .category {
+    left: 78px;
+    height: 100%;
+    width: calc(100% - 78px);
+}
+
+.category {
+    width: 85%;
+    float: right;
+    padding: 30px 30px 0 30px;
+}
+
+.category > .add-category-box {
+    min-height: 30vh;
+    margin-bottom: 2vh;
+}
+
+.category > .add-category-box,
+.category > .category-list-box {
+    box-shadow: 0 3px 7px 0 grey;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+.category > .add-category-box > .head-bar-category-create,
+.category > .category-list-box > .head-bar-category-list {
+    background-color: #61c156;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.category > .add-category-box > .head-bar-category-create > .head-bar-title,
+.category > .category-list-box > .head-bar-category-list > .head-bar-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 0 15px 40px;
+}
+
+.category > .add-category-box > .body-category-create > form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.category > .add-category-box > .body-category-create > form > .image-view-upload {
+    width: 15%;
+    text-align: center;
+}
+
+.category > .add-category-box > .body-category-create > form > .category-upload {
+    width: 85%;
+    margin-left: 20px;
+}
+
+.category > .add-category-box > .body-category-create > form  .category-image-upload {
+    background-color: #61c156;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 140px;
+    height: 30px;
+}
+
+.category > .add-category-box > .body-category-create > form .category-image-upload label {
+    font-size: 16px;
+}
+
+.category > .add-category-box > .body-category-create > form .category-image-upload i {
+    margin-right: 8px;
+}
+
+.category > .add-category-box > .body-category-create > form > .category-upload > .category-name {
+    display: flex;
+    margin: 7px 20px 7px 0;
+    width: 100%;
+    align-items: center;
+}
+
+.category > .add-category-box > .body-category-create > form > .category-upload > .category-name > p {
+   width: 80px;
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.category > .add-category-box > .body-category-create > form > .category-upload > .category-name > .add-category-name {
+    width: 90%;
+    padding: 5px;
+}
+
+.category > .add-category-box > .body-category-create > form > .category-upload > button {
+    background-color: #61c156;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px;
+    width: 98px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.category > .add-category-box > .body-category-create > form > .category-upload > button > i {
+    float: left;
+    width: 30%;
+}
+
+.category > .category-list-box {
+    min-height: 55vh;
+}
+
+.category > .category-list-box > .body-category-list {
+    padding: 10px;
+    max-height: 47vh;
+    overflow: auto;
+}
+
+.category > .category-list-box > .body-category-list >.category-list {
+    width: 100%;
+    text-align: center;
+}
+
+.category > .category-list-box > .body-category-list > .category-list > thead {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.category > .category-list-box > .body-category-list > .category-list > tbody img {
+    max-width: 100px;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.category > .category-list-box > .body-category-list > .category-list > tbody button {
+    padding: 8px;
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    width: 40px;
+    cursor: pointer;
+}

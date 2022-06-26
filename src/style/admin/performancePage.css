@@ -1,0 +1,160 @@
+.sidebar.close ~ .peformance {
+    left: 78px;
+    height: 100%;
+    width: calc(100% - 78px);
+}
+
+.peformance {
+    float: right;
+    width: 85%;
+    height: 93%;
+    padding: 0 30px 0 30px;
+}
+
+.peformance > .income-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 30%;
+}
+
+.peformance > .income-box > .income-box-preview {
+    margin: 10px 7px;
+    box-shadow: 0 3px 7px 0 grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.peformance > .income-box > .income-box-preview > .income-title {
+    background-color: #61c156;
+    padding: 18px 0;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.peformance > .income-box > .income-box-preview > .income-detail {
+    margin: 30px auto;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.peformance > .status-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.peformance > .status-box > .status-box-preview {
+    margin: 10px 7px;
+    box-shadow: 0 3px 7px 0 grey;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    background-color: white;
+}
+
+.peformance > .status-box > .status-box-preview > .status-color-pending,
+.peformance > .status-box > .status-box-preview > .status-color-success,
+.peformance > .status-box > .status-box-preview > .status-color-expired,
+.peformance > .status-box > .status-box-preview > .status-color-failed {
+    width: 5%;
+    border-radius: 10px 0 0 10px;
+}
+
+.peformance > .status-box > .status-box-preview > .status-color-pending {
+    background-color: purple;
+}
+
+.peformance > .status-box > .status-box-preview > .status-color-success {
+    background-color: orange;
+}
+
+.peformance > .status-box > .status-box-preview > .status-color-expired {
+    background-color: gold;
+}
+
+.peformance > .status-box > .status-box-preview > .status-color-failed {
+    background-color: yellowgreen;
+}
+
+.peformance > .status-box > .status-box-preview > .status-detail {
+    width: 50%;
+}
+
+.peformance > .status-box > .status-box-preview > .status-detail > .status-detail-title {
+    margin: 20px;
+    font-weight: 500;
+}
+
+.peformance > .status-box > .status-box-preview > .status-detail > .status-detail-info {
+    margin: 10px auto 40px auto;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.peformance > .status-box > .status-box-preview > i {
+    width: 40%;
+    margin: auto;
+    font-size: 64px;
+}
+
+.peformance > .status-box > .status-box-preview > .fa-clock,
+.peformance > .recent-order-box > .recent-order-table > tbody > tr > td > #pending {
+    color: purple;
+}
+
+.peformance > .status-box > .status-box-preview > .fa-arrows-rotate,
+.peformance > .recent-order-box > .recent-order-table > tbody > tr > td > #success {
+    color: orange;
+}
+
+.peformance > .status-box > .status-box-preview > .fa-truck-fast,
+.peformance > .recent-order-box > .recent-order-table > tbody > tr > td > #expired {
+    color: gold;
+}
+
+.peformance > .status-box > .status-box-preview > .fa-map-location-dot,
+.peformance > .recent-order-box > .recent-order-table > tbody > tr > td > #failed {
+    color: yellowgreen;
+}
+
+.peformance > .recent-order-box {
+    margin: 10px 7px;
+    max-height: 470px;
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px 0 grey;
+    overflow: auto;
+}
+
+.peformance > .recent-order-box > .recent-order-title {
+    display: flex;
+}
+
+.peformance > .recent-order-box > .recent-order-title > p {
+    width: 97%;
+    margin: auto 0 auto 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.peformance > .recent-order-box > .recent-order-title > i {
+    width: 3%;
+    font-size: 28px;
+    margin: 20px;
+}
+
+.peformance > .recent-order-box > .recent-order-table {
+    width: 100%;
+    padding: 15px;
+}
+
+.peformance > .recent-order-box > .recent-order-table  td {
+    padding: 10px;
+}
+
+.peformance > .recent-order-box > .recent-order-table > thead {
+    font-weight: 700;
+}

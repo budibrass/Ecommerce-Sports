@@ -1,0 +1,81 @@
+.sidebar.close ~ .customerlist {
+    left: 78px;
+    height: 100%;
+    width: calc(100% - 78px);
+}
+
+.customerlist {
+    width: 85%;
+    float: right;
+    padding: 30px 30px 0 30px;
+}
+
+.customerlist > .customerlist-box {
+    box-shadow: 0 3px 7px 0 grey;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    height: 85vh;
+}
+
+.customerlist > .customerlist-box > .head-bar-customerlist {
+    background-color: #61c156;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    width: 100%;
+}
+
+.customerlist > .customerlist-box > .head-bar-customerlist > .head-bar-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0 15px 40px;
+    width: 15%;
+}
+
+.customerlist > .customerlist-box > .head-bar-customerlist > .search-bar {
+    display: flex;
+    width: 75%;
+    margin: 15px 0;
+}
+
+.customerlist > .customerlist-box > .head-bar-customerlist > .search-bar > ::placeholder {
+    padding-left: 20px;
+}
+
+.customerlist > .customerlist-box > .head-bar-customerlist > .search-bar > .search-customer {
+    width: 90%;
+    border-radius: 5px 0 0 5px;
+    border-color: transparent;
+}
+
+.customerlist > .customerlist-box > .head-bar-customerlist > .search-bar > .search-button {
+    width: 10%;
+    border-radius: 0 5px 5px 0;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    background-color: #61c156;
+    cursor: pointer;
+}
+
+.customerlist > .customerlist-box > .body-customerlist {
+    margin: 20px 5px 20px 20px;
+    max-height: 712px;
+    overflow: auto;
+}
+
+.customerlist > .customerlist-box > .body-customerlist > .list-customer {
+    width: 100%;
+    text-align: center;
+}
+
+.customerlist > .customerlist-box > .body-customerlist > .list-customer > thead td {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.customerlist > .customerlist-box > .body-customerlist > .list-customer > tbody tr td {
+    padding: 10px;
+}

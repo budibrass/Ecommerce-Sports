@@ -1,0 +1,19 @@
+export const FETCH_PRODUCT = "FETCH_PRODUCT"; 
+export const GET_ONE_PRODUCT = "GET_ONE_PRODUCT"; 
+export const ADD_PRODUCT = "ADD_PRODUCT"; 
+export const CHANGE_PRODUCT = "CHANGE_PRODUCT"; 
+export const DELETE_PRODUCT = "DELETE_PRODUCT"; 
+
+export const FETCH_CATEGORY = "FETCH_CATEGORY"; 
+export const GET_ONE_CATEGORY = "GET_ONE_CATEGORY"; 
+export const ADD_CATEGORY = "ADD_CATEGORY"; 
+export const DELETE_CATEGORY = "DELETE_CATEGORY"; 
+
+export const FETCH_ORDER = "FETCH_ORDER"; 
+export const GET_ONE_ORDER = "GET_ONE_ORDER"; 
+
+export const FETCH_CUSTOMER_LIST = "FETCH_CUSTOMER_LIST"; 
+
+export const FECTH_BANNER = "FECTH_BANNER"; 
+export const ADD_BANNER = "ADD_BANNER"; 
+export const DELETE_BANNER = "DELETE_BANNER"; 

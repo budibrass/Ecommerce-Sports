@@ -1,0 +1,88 @@
+.sidebar.close ~ .orders-detail {
+    left: 78px;
+    height: 100%;
+    width: calc(100% - 78px);
+}
+
+.orders-detail {
+    width: 85%;
+    float: right;
+    padding: 30px 30px 0 30px;
+}
+
+.orders-detail > .orders-detail-box {
+    box-shadow: 0 3px 7px 0 grey;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.orders-detail > .orders-detail-box > .head-bar-orders-detail {
+    background-color: #61c156;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    width: 100%;
+}
+
+.orders-detail > .orders-detail-box > .head-bar-orders-detail > .head-bar-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0 15px 40px;
+    width: 100%;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail {
+    margin: 20px;
+    width: 100%;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li{
+    display: flex;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li .detail-name {
+    width: 30%;
+    font-weight: 700;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li .detail-description {
+    width: 70%;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li span {
+    display: flex;
+    align-items: center;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li span > i {
+    margin-right: 10px;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li span #success {
+    color: gold;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li span #pending {
+    color: purple;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li span #expired {
+    color: orange;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li span #failed {
+    color: darkred;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li .detail-description > li {
+    display: flex;
+}
+
+.orders-detail > .orders-detail-box > .body-orders-detail > ul > li .detail-description > li p {
+    margin-right: 50px;
+}
